@@ -1,0 +1,4 @@
+interface:
+  display_name: "MicroFn"
+  short_description: "Use microfn/mfn CLI for cloud functions"
+  default_prompt: "Use $microfn to deploy, inspect, and run sandboxed JavaScript functions with the microfn or mfn CLI."
