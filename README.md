@@ -14,6 +14,18 @@ MicroFn is a programmable toolbox for AI agents. Instead of being limited to bui
 
 **The magic**: Your AI agent can write and deploy its own tools on the fly. Need a capability that doesn't exist yet? The agent can create a function, deploy it to MicroFn, and immediately start using it. It's like giving your AI the ability to extend itself with custom tools as needed.
 
+## Installation
+
+```bash
+npx skills add microfnhq/skills
+```
+
+To list all available skills:
+
+```bash
+npx skills add microfnhq/skills --list
+```
+
 ## Available Skills
 
 ### microfn
