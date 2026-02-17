@@ -1,0 +1,6 @@
+{
+  "microfn": {
+    "command": "npx",
+    "args": ["mcp-remote", "https://mcp.microfn.dev/mcp"]
+  }
+}

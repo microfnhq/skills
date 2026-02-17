@@ -1,0 +1,12 @@
+{
+  "name": "microfn",
+  "version": "1.0.0",
+  "description": "Skills for MicroFn: deploy, manage, and execute sandboxed JavaScript functions as AI agent tools",
+  "author": {
+    "name": "MicroFn",
+    "email": "hello@microfn.dev",
+    "url": "https://microfn.dev"
+  },
+  "keywords": ["microfn", "functions", "serverless", "ai-agents", "mcp", "sandbox", "javascript"],
+  "logo": "logo.svg"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "microfn",
+  "description": "Skills for MicroFn: deploy, manage, and execute sandboxed JavaScript functions as AI agent tools",
+  "version": "1.0.0",
+  "author": {
+    "name": "MicroFn"
+  }
+}

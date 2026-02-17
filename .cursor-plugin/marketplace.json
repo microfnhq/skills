@@ -1,0 +1,12 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/npm/@anthropic-ai/claude-code@latest/marketplace-plugin-schema.json",
+  "plugin": {
+    "name": "microfn",
+    "source": "./",
+    "description": "Skills for MicroFn: deploy, manage, and execute sandboxed JavaScript functions as AI agent tools"
+  },
+  "owner": {
+    "name": "MicroFn",
+    "url": "https://microfn.dev"
+  }
+}
