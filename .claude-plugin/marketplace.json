@@ -1,12 +1,23 @@
 {
-  "$schema": "https://cdn.jsdelivr.net/npm/@anthropic-ai/claude-code@latest/marketplace-plugin-schema.json",
-  "plugin": {
-    "name": "microfn",
-    "source": "./",
-    "description": "Skills for MicroFn: deploy, manage, and execute sandboxed JavaScript functions as AI agent tools"
-  },
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "microfn-skills",
+  "description": "Skills for MicroFn: deploy, manage, and execute sandboxed JavaScript functions as AI agent tools",
   "owner": {
     "name": "MicroFn",
-    "url": "https://microfn.dev"
-  }
+    "email": "hello@microfn.dev"
+  },
+  "plugins": [
+    {
+      "name": "microfn",
+      "description": "Use the MicroFn CLI to deploy, update, inspect, and execute sandboxed JavaScript functions as AI agent tools",
+      "version": "1.0.0",
+      "author": {
+        "name": "MicroFn",
+        "email": "hello@microfn.dev"
+      },
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/microfnhq/skills"
+    }
+  ]
 }
